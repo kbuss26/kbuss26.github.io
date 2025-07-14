@@ -1,3 +1,12 @@
 body {
-    background-color:honeydew
+    background-color:rgb(246, 255, 246)
+}
+
+.padded_b {
+    padding-bottom: 20px;
+}
+
+.padded_t {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
