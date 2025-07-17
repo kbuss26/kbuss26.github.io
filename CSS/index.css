@@ -1,0 +1,23 @@
+body {
+    background-color:rgb(246, 255, 246)
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+.header_list {
+    list-style-type:none;
+    overflow: hidden;
+    padding:0px;
+}
+
+.header_element {
+    float:left;
+    padding-right:8px;
+}
+
+.padded_t {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
