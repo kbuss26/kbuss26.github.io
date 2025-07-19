@@ -1,5 +1,17 @@
+/* 
+Keifer Buss
+Last modified: 19 Jul 2025
+Sources: [2], [3], [4] 
+*/
+
 body {
     background-color:rgb(246, 255, 246)
+}
+
+div.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(213, 255, 255);
 }
 
 .header {
@@ -20,4 +32,8 @@ body {
 .padded_t {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+button.runaway {
+    position: absolute;
 }
