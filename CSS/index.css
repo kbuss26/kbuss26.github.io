@@ -4,36 +4,45 @@ Last modified: 19 Jul 2025
 Sources: [2], [3], [4] 
 */
 
+html {
+    background-image: linear-gradient(to right, #c9e4ff, #fff7d1, #ffd4e9)
+}
+
 body {
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.4em;
+    border-width: 4px;
+    border-style: outset;
+    border-left-color:#daebeb;
+    border-right-color: #f8e2fc;
+    margin: 40px 20px 5% 20px;
     background-color:rgb(246, 255, 246)
-}
-
-div.sticky {
-    position: sticky;
-    top: 0px;
-    background-color: rgb(213, 255, 255);
-}
-
-.header {
-    padding-bottom: 30px;
-}
-
-.header_list {
-    list-style-type:none;
-    overflow: hidden;
-    padding:0px;
-}
-
-.header_element {
-    float:left;
-    padding-right:8px;
-}
-
-.padded_t {
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 button.runaway {
     position: absolute;
+}
+
+div.gen_padded {
+    padding: 30px;
+}
+
+div.top_padded {
+    padding-top: 30px;
+}
+
+div.v_padded {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.sticky {
+    position: sticky;
+    border-style: inset;
+    border-width: 2px;
+    top: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 5px;
+    padding-right: 5px;
 }

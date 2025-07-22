@@ -12,26 +12,35 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <style>
+            h1.title {
+                margin: 30px;
+                font-family: "Verdana";
+                text-align: center;
+            }
+
             .header_list {
                 list-style-type:none;
                 overflow: hidden;
-                padding:0px;
+                padding: 0px;
+                margin: 0px;
             }
 
             .header_element {
                 float:left;
-                padding-right:8px;
+                padding: 10px 20px 10px 20px;
+                border-style: outset;
             }
             </style>
 
-            <h1 style="text-align: center;">Keifer Buss's Website</h1>
+            <h1 class="title">Keifer Buss's Website</h1>
+            <hr style="margin: 0px;">
             <ul class="header_list">
                 <li class="header_element"><a href="index.html">Home</a></li>
                 <li class="header_element"><a href="about.html">About</a></li>
                 <li class="header_element"><a href="experiments.html">Website Experiments</a></li>
                 <li class="header_element"><a href="contact.html">Contact Me</a></li>
             </ul>
-            <hr>
+            <hr style="margin: 0px;">
         `
     }
 }
