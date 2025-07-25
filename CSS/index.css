@@ -1,6 +1,6 @@
 /* 
 Keifer Buss
-Last modified: 19 Jul 2025
+Last modified: 25 Jul 2025
 Sources: [2], [3], [4] 
 */
 
@@ -45,4 +45,17 @@ div.sticky {
     background-color: rgb(241, 241, 241);
     padding-left: 5px;
     padding-right: 5px;
+}
+
+button.puzzle {
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+}
+
+div.row {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
