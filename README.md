@@ -14,4 +14,6 @@ A basic website establishing who I am and what I do. As I develop this website f
 
 [5] "getElementById returns Null? [Closed]." stackoverflow.com. Accessed: Jul. 23, 2025. [Online.] Available: https://stackoverflow.com/questions/8739605/getelementbyid-returns-null
 
-[6] "JavaScript click event listener on class." stackoverflow.com. Accessed: Jul. 23, 2025. [Online.] Available. https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
+[6] "JavaScript click event listener on class." stackoverflow.com. Accessed: Jul. 23, 2025. [Online.] Available: https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
+
+[7] "removeEventListener on anonymous functions in JavaScript." stackoverflow.com. Accessed: Jul. 28, 2025. [Online.] Available: https://stackoverflow.com/questions/4950115/removeeventlistener-on-anonymous-functions-in-javascript

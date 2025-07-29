@@ -1,6 +1,6 @@
 <!--
 Keifer Buss
-Last modified: 25 Jul 2025
+Last modified: 29 Jul 2025
 Sources: [1], [3], [4]
 -->
  
@@ -46,10 +46,34 @@ Sources: [1], [3], [4]
 </div>
 
 <!-- Test 2.1: Creating the puzzle itself -->
-<h3>II: Puzzle</h3> 
-<create-puzzle></create-puzzle>
+<h3>II: Lights Out Puzzle</h3> 
 
-<!-- Test 2.2: Generating the puzzle based on user input [Coming soon!] -->
+<p>When one tile is clicked, the lighting changes on both the clicked tile and its adjacent tiles.
+     The objective of this game is to turn every tile's light off. </p>
+
+<create-puzzle id="whole_puzzle"></create-puzzle>
+
+<!-- Test 2.2: Adding moves, win condition, and reset functionality -->
+<p id="puzzle_moves">Moves: 0</p>
+<p id="puzzle_num_lights">Number of lights: unknown</p>
+<form name="puzzle_dimensions">
+    <div style="display:flex">
+        <div style="margin-right: 20px;">
+            <label>Puzzle Width:</label><br>
+            <label>Puzzle Height:</label><br>
+            <!--<label for="pDark">Dark Tiles:</label><br>-->
+        </div>
+        <div>
+            <input class="small" id="pWidthNum"><br>
+            <input class="small" id="pHeightNum"><br>
+            <!--input style="width: 20ch" placeholder="(leave blank for random)" type="pDarkNum"><br>-->
+        </div>
+    </div>
+</form>
+<button id="puzzle_generate">Generate</button><br><br>
+<p id="puzzle_error"></p>
+
+<button id="puzzle_reset">Reset Puzzle</button>
 
 </div>
 </body>

@@ -1,6 +1,6 @@
 /* 
 Keifer Buss
-Last modified: 25 Jul 2025
+Last modified: 29 Jul 2025
 Sources: [2], [3], [4] 
 */
 
@@ -58,4 +58,17 @@ div.row {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+input.small {
+    width: 3ch;
+}
+
+#puzzle_generate {
+    padding-bottom:0;
+}
+
+#puzzle_error{
+    padding-top: 0;
+    margin-top: 0;
 }
