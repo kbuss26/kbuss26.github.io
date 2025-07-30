@@ -1,6 +1,6 @@
 /* 
 Keifer Buss
-Last modified: 29 Jul 2025
+Last modified: 30 Jul 2025
 Sources: [3], [4], [5], [6], [7]
 */
 
@@ -143,6 +143,7 @@ function init() {
             darkArray[i] = 0;
             btns[i].style.backgroundColor = "white";
         }
+        inGame = true;
         updateText();
         return;
     }
