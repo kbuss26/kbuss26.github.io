@@ -17,3 +17,7 @@ A basic website establishing who I am and what I do. As I develop this website f
 [6] "JavaScript click event listener on class." stackoverflow.com. Accessed: Jul. 23, 2025. [Online.] Available: https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
 
 [7] "removeEventListener on anonymous functions in JavaScript." stackoverflow.com. Accessed: Jul. 28, 2025. [Online.] Available: https://stackoverflow.com/questions/4950115/removeeventlistener-on-anonymous-functions-in-javascript
+
+[8] "List of poker hands." Wikipedia. Accessed: Jul. 30, 2025. [Online]. Available: https://en.wikipedia.org/wiki/List_of_poker_hands
+
+[9] "Vector playing cards." Google Code Archive. Accessed: Aug. 16, 2025. [Online]. Available: https://code.google.com/archive/p/vector-playing-cards/.
