@@ -1,6 +1,6 @@
 /* 
 Keifer Buss
-Last modified: 24 Aug 2025
+Last modified: 15 Sep 2025
 Sources: [3], [4], [5], [6], [7], [8], [9]
 */
 
@@ -215,7 +215,7 @@ function init() {
     cardText = document.getElementById("cards");
     evalText = document.getElementById("poker_eval")
     cardText.innerHTML = "";
-    evalText.innerHTML = "";
+    evalText.innerHTML = "No evaluation";
     dealCards();
     updateCardText();
 
@@ -359,7 +359,7 @@ function init() {
         
         // Check if win condition is met (every tile is dark)
         if (lightCount === 0) {
-            window.alert("Your are winner");
+            window.alert("You win!");
             inGame = false;
         } else if (lightCount < 0) {
             window.alert("how did you get negative lights");
@@ -468,7 +468,7 @@ function evaluateHand() {
         if (uniqueCards[0][0] === 10) {
             evalText.innerHTML = "Royal Flush (im so sorry you got this here)"
         } else {
-            evalText.innerHTML = "Straight Flush"
+            evalText.innerHTML = "Straight Flush!?"
         }
     } else if (highestCount === 4) {evalText.innerHTML = "Four of a Kind!!"}
     else if ((highestCount === 3) && (numPairs === 1)) {evalText.innerHTML = "Full House!"}
@@ -522,7 +522,7 @@ function restartGame() {
     for (let i = hand.length; i > 0; i--) {
         discardPile.push(hand.pop());
     }
-    evalText.innerHTML = "";
+    evalText.innerHTML = "No evaluation";
     pile.returnPile(discardPile);
     discardPile = [];
     pile.shuffle();
