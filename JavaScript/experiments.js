@@ -1,8 +1,12 @@
 /* 
 Keifer Buss
-Last modified: 15 Sep 2025
+Last modified: 11 Feb 2026
 Sources: [3], [4], [5], [6], [7], [8], [9]
 */
+
+// TODO:
+// Separate functions into different (more readable) files
+// Add more comments
 
 // Customizable dimensions
 let currentWidth = 5;

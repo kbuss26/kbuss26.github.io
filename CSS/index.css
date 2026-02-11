@@ -1,7 +1,14 @@
 /* 
 Keifer Buss
-Last modified: 15 Sep 2025
+Last modified: 11 Feb 2026
 Sources: [2], [3], [4] 
+*/
+
+/* TODO
+* Revamp entire style to be more modern
+* Interactive sections (ex. block of text increasing in opacity and moving up when the element is loaded)
+*   (likely deferring to JS)
+* Change BG color depending on position in page
 */
 
 html {
